@@ -1,0 +1,37 @@
+[{
+  "name": "louise",
+  "email": "l@sig.com",
+  "stilling": "designer",
+"id": 1
+},
+{
+  "name": "marco",
+  "email": "m@sig.com",
+  "stilling": "consultant",
+"id": 2
+},
+{
+  "name": "marco",
+  "email": "m@sig.com",
+  "stilling": "consultant",
+"id": 3
+},
+{
+  "name": "marco",
+  "email": "m@sig.com",
+  "stilling": "consultant",
+"id": 4
+},
+{
+  "name": "marco",
+  "email": "m@sig.com",
+  "stilling": "consultant",
+"id": 5
+},
+{
+  "name": "marco",
+  "email": "m@sig.com",
+  "stilling": "consultant",
+"id": 6
+}
+]
