@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import MemberList from "./components/MemberList"
 import Team from "./components/Team"
 import FinishedTeam from "./components/FinishedTeam"
+import SendTeam from "./components/SendTeam"
 function App() {
 const [members, setMembers] = useState([])
 const [team, setTeam] = useState([])
@@ -54,10 +55,13 @@ getData();
   
     
     <Header></Header>
-    {showTeam ? <FinishedTeam team={team}/> : (
+    {/* hvis showTeam er aktiv så vis finishedTeam ellers vis alt det andet */}
+    {/* {showTeam ? <FinishedTeam team={team}/> : (
     <><MemberList members={members} addToTeam={addToTeam} ></MemberList>
-    <Team removeFromTeam={removeFromTeam} members={members} team={team} setShowTeam={setShowTeam}></Team></>)}
+   {showTeam ? <SendTeam/> : } <Team removeFromTeam={removeFromTeam} members={members} team={team} setShowTeam={setShowTeam}></Team></>)} */}
     
+    { showTeam ? <FinishedTeam team={team}/> : <MemberList members={members} addToTeam={addToTeam} ></MemberList>}
+    {showTeam ? <SendTeam  setShowTeam={setShowTeam}/> : <Team removeFromTeam={removeFromTeam} members={members} team={team} setShowTeam={setShowTeam}></Team> }
     
     </div>
   )
