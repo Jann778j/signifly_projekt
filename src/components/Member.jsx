@@ -1,4 +1,5 @@
 import React from 'react'
+import FinishedTeam from './FinishedTeam';
 
 function Member(props) {
     function add(){
@@ -6,11 +7,14 @@ function Member(props) {
     }
   return (
        <article className='Member'>
-        <img src="Born-Digital.png" alt="person" />
+        <img src={props.data.img} alt="person" />
         <h2>{props.data.name}</h2>
-        <h3>{props.data.email}</h3>
-        <p>{props.data.stilling}</p>
-        <button onClick={add}>ADD TO TEAM</button>
+            <h3>{props.data.stilling}</h3>
+       {props.fullView === true && <h4><a href={`mailto:${props.data.email}`}>{props.data.email}</a></h4>} 
+    {props.fullView === true && <p>{props.data.phone}</p>} 
+         {props.fullView === true && <p>{props.data.beskrivelse}</p>} 
+        {props.fullView === false && <button onClick={add}>ADD TO TEAM</button>}
+      
 
     </article>
   )
