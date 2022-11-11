@@ -31,18 +31,23 @@ img{
 }
 
 .App{
-  display: grid;
-  grid-template-columns:auto 300px ;
+ 
 }
 
 Header{
   background-color: rgb(191, 198, 219);
   grid-column: 1/-1;
+
 }
 
 .Valgtteam{
   background-color: beige;
   color: #242424;
+  display: flex;
+  flex-direction: column;
+
+    position: sticky;
+      bottom: 0px;
   
 
   li {
@@ -52,7 +57,8 @@ Header{
 
 
   button {
-  margin-left: 2rem;
+  align-self: center;
+  margin-bottom: 2rem;
 
     
   }
@@ -160,6 +166,9 @@ button{
 
 .SendTeam{
   color: #242424;
+  background-color: aliceblue;
+
+  
   button{
     margin: 1rem;
   }
@@ -211,6 +220,11 @@ margin: 1rem;
   
   
     }
+
+        .App {
+          display: grid;
+          grid-template-columns: auto 300px;
+        }
 
 
 }
