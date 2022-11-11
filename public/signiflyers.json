@@ -1,37 +1,214 @@
 [{
-  "name": "louise",
-  "email": "l@sig.com",
-  "stilling": "designer",
-"id": 1
+    "img": "https://www.datocms-assets.com/7718/1545302775-th-main.jpg?auto=compress&w=389&dpr=2&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1545413564-th-sub-other.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Tore Heimann",
+  "email": "th@signifly.com",
+  "phone": "+45 2620 9049",
+  "stilling": "Tech Team Lead, Copenhagen",
+  "beskrivelse": "Tore and Signifly joined forces back in 2016. As Technical Team Lead, he ensures that our development projects run as smoothly and efficiently as possible.",
+    "id": 1
 },
 {
-  "name": "marco",
-  "email": "m@sig.com",
-  "stilling": "consultant",
-"id": 2
+    "img": "https://www.datocms-assets.com/7718/1597744462-ntk9134-edit.jpg?auto=compress&w=272&dpr=2&q=70",
+    "imgfull": "https://www.datocms-assets.com/7718/1596635795-ntk9134-edit2.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Sara Friis Bache",
+  "email": "sb@signifly.com",
+  "phone": "+45 4093 8119",
+  "stilling": "Head of Operations",
+  "beskrivelse": "Sara started her Signifly journey at the beginning of 2019 and made an immediate impact with her vast and extensive experience within IT project management and management consulting. She is a true planning warrior, scheduling the project processes in close collaboration with our clients, and she is known for her ability to enforce the internal timelines with a firm hand and a big smile.",
+    "id": 2
 },
 {
-  "name": "marco",
-  "email": "m@sig.com",
-  "stilling": "consultant",
-"id": 3
+    "img": "https://www.datocms-assets.com/7718/1622118361-ntk3832-copy.jpg?auto=compress&w=272&dpr=2&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1622118361-ntk3832-copy.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Emil Hørlyck",
+  "email": "eh@signifly.com",
+  "phone": "",
+  "stilling": "Tech Lead",
+  "beskrivelse": "Emil joined Signifly Signifly’s office in May 2021. As a Tech Lead, he applies his expertise in process automation and data-driven business optimization to promote the use of digital solutions. ",
+    "id": 3
 },
 {
-  "name": "marco",
-  "email": "m@sig.com",
-  "stilling": "consultant",
-"id": 4
+     "img": "https://www.datocms-assets.com/7718/1599465933-ntk9634-edit.jpg?auto=compress&w=272&dpr=2&q=70",
+      "imgfull": "https://www.datocms-assets.com/7718/1599465939-ntk9634-edit2.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Christoffer Skytte Wielsøe",
+  "email": "csw@signifly.com",
+  "phone": "+45 2636 9592",
+  "stilling": "Tech Team Lead, Montreal",
+  "beskrivelse": "Christoffer joined the Signifly office back in August 2020 as a front-end developer and dove straight into doing what he does best – making extremely smooth and crisp websites.",
+    "id": 4
 },
 {
-  "name": "marco",
-  "email": "m@sig.com",
-  "stilling": "consultant",
-"id": 5
+    "img": "https://www.datocms-assets.com/7718/1553180647-ntk9290-edit.jpg?auto=compress&w=272&dpr=2&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Ro Kleine Sonne",
+  "email": "ro@signifly.com",
+  "phone": "+45 3066 0204",
+  "stilling": "Back-end Developer",
+  "beskrivelse": "Ro joined Signifly March 2019 as a back-end developer. Before Signifly, he worked for a sharing economy app; today, he manipulates data and designs code to solve business problems and address stakeholder needs.",
+    "id": 5
 },
 {
-  "name": "marco",
-  "email": "m@sig.com",
-  "stilling": "consultant",
-"id": 6
+    "img": "https://www.datocms-assets.com/7718/1545302800-tr-main.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Trine Rønsholdt",
+  "email": "tr@signifly.com",
+  "phone": "+45 2985 0740",
+  "stilling": "Interactive Designer",
+  "beskrivelse": "Trine joined Signifly back in the late summer of 2015, starting out as an intern. A conceptual thinker and visual at heart, Trine thrives on creating coherent and straightforward communication – taking a complex message and delivering it through animation, design, and crystal-clear communication – always in the language, medium, and format that the audience understands.",
+    "id": 6
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1545295667-ss-main.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Søren Schrøder",
+  "email": "ss@signifly.com",
+  "phone": "+45 3170 0428",
+  "stilling": "Design Team Lead, Copenhagen",
+  "beskrivelse": "Søren brought his 10+ years of agency experience to Signifly back in 2015. As a UX'er he seeks to solve complex issues through intuitive design and a deep understanding of and empathy for human behaviour.",
+    "id": 7
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1622115771-ntk2686-copy-1.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Caroline Vestergaard Reiter",
+  "email": "cvr@signifly.com",
+  "phone": "",
+  "stilling": "Digital Designer",
+  "beskrivelse": "Caroline joined Signifly at the start of April 2021 as a Digital Designer in Copenhagen. She graduated with a BA in Design & Business from Copenhagen School of Design & Technology and brings expertise in graphic design, UI design, and photography. Today, she creates digital experiences and unfolds brand identities for our ambitious clientele while finishing her Master’s in Digital Design & Interactive Technologies at the IT University of Copenhagen.",
+    "id": 8
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1545301854-as-main.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Alexander Spliid",
+  "email": "as@signifly.com",
+  "phone": "+45 2276 5174",
+  "stilling": "Partner & Head of Design",
+  "beskrivelse": "Alexander is a partner at Signifly and the visual cornerstone in our trio of founders. Being the Head of Design, Alexander is a versatile as they come. He has the ability to always think of the big picture when it comes to design, brand, and business. This enables him to constantly push the limits of how visual communication can influence behavior and build strong and honest brands.",
+    "id": 9
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1663159234-ntk1444-edit.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Sebastian Artmann",
+  "email": "sa@signifly.com",
+  "phone": "+45 2332 0151",
+  "stilling": "Executive Creative Director",
+  "beskrivelse": "Sebastian joined Signifly’s Copenhagen office in September 2022 to elevate our offerings and champion creative solutions as Executive Creative Director and Creative Team Lead. With over a decade of experience working with brand and creative concepting, he’s built a strong arsenal of tools aimed at finding new ways of working, discovering key insights that make people move, and ultimately, solving business problems.",
+    "id": 11
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1545302684-ns-main.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Nana Skak",
+  "email": "ns@signifly.com",
+  "phone": "+45 2887 1881",
+  "stilling": "Producer & Innovation Lead",
+  "beskrivelse": "Nana joined Signifly in the summer of 2016 and is the project manager on our films. She's a driving force in pushing projects forward and making great things happen. Her responsibilities often include planning, project economy, pre-production, and client relations.",
+    "id": 12
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1643372873-ntk6653-edit.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Mathilde Ive",
+  "email": "mi@signifly.com",
+  "phone": "",
+  "stilling": "Senior Innovation Lead",
+  "beskrivelse": "Bringing more than a decade of product management with her and a portfolio of 20+ product launches, Mathilde joined Signifly in October 2020 to help clients fulfill their digital ambition.Her extensive experience stems from 11+ years in the media and lifestyle industry, working with big brands like Berlingske, Adidas, Bo Bedre, Monocle, I Form, The National Gallery of Denmark, and many others to develop and launch new products.",
+    "id": 13
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1562334980-ntk2870-edit.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Hedvig Aanesen",
+  "email": "ha@signifly.com",
+  "phone": "+45 2478 8291",
+  "stilling": "Innovation Team Lead",
+  "beskrivelse": "Hedvig joined Signifly in April 2019 and now heads up the Innovation Team as our Innovation Team Lead. She is our Norwegian queen, currently working as a strategic partner, project manager, and consultant for our Norwegian clients. She came to Signifly with a highly developed skill set and vast experience, having previously worked with Siemens Denmark/Norway in strategic communications.",
+    "id": 14
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1545302592-mk-main.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Mads Kjærgaard",
+  "email": "mk@signifly.com",
+  "phone": "+45 2785 1529",
+  "stilling": "Consultants Team Lead",
+  "beskrivelse": "A longtime veteran of Signifly, Mads first joined back in 2016, acting as a key player in shaping and structuring fundamental partnerships. Since then, he’s taken on the task of the Consultants Team Lead and Senior Business Innovation Consultant, helping companies seize digital opportunities with strong business acumen. As an experienced consultant, Mads works closely with our clientele to understand their business and potential, and quickly bridge the gap between dreaming and doing. Within Signifly, Mads also drives the development of Signifly’s own offerings and services, and our approach as innovation partners.",
+    "id": 15
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1558702492-mm.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Malthe Mogensen",
+  "email": "mm@signifly.com",
+  "phone": "+45 5090 3474",
+  "stilling": "Director of Business Design",
+  "beskrivelse": "Malthe joined the team in early 2018. Malthe is a creative strategist who believes in the efficiency of creativity and resents the idea of choosing one or the other. As Director of Business Design, he is responsible for the manifestation of our mindset and method ‘innovate by doing’ – an entrepreneurial approach to digital strategy.",
+    "id": 16
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1635940592-ntk6833-edit.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Sofie Henriksen",
+  "email": "sh@signifly.com",
+  "phone": "",
+  "stilling": "Strategy Team Lead, Copenhagen",
+  "beskrivelse": "Sofie started as a Senior Strategist in Signifly’s Copenhagen office at the start of November 2021. A curious thinker, voracious reader, and experienced digital and creative strategist – Sofie’s interest in the way people behave helps her find new and creative solutions for the problems that persist in our every day.",
+    "id": 17
+},
+
+{
+    "img": "https://www.datocms-assets.com/7718/1597744414-ntk9944-edit.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Kathrine Elvira Boysen",
+  "email": "keb@signifly.com",
+  "phone": "",
+  "stilling": "Creative Strategist",
+  "beskrivelse": "With over 9 years of experience in communications and marketing, Katherine has joined Signifly in 2019 as a Strategist. She is passionate about how brands can innovate their digital presence through storytelling and emotion-based narratives.Kathrine holds a master’s degree in Strategic Communications from the University of Copenhagen, which she uses as the foundation for her excellent brand storytelling and UX writing skills.",
+    "id": 18
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1665520360-ntk8843-edit.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Phoebe Skinner",
+  "email": "ps@signifly.com",
+  "phone": "",
+  "stilling": "Creative Strategist",
+  "beskrivelse": "Phoebe joined Signifly’s Copenhagen office as a Creative Strategist in October 2022. After graduating with a master’s in anthropology, Phoebe used her keen ethnographic research and analysis skills to mine for sharp human insights. Her approach to strategy remains founded on a cultural and human-centric lens, and it’s this curiosity in human behavior that helps Phoebe advise clients on tapping into culturally relevant spaces with authenticity.",
+    "id": 19
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1635877706-ntk7360-edit.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Thor Tophøj",
+  "email": "tt@signifly.com",
+  "phone": "",
+  "stilling": "Growth Consultant",
+  "beskrivelse": "In February 2021, Thor Tophøj joined Signifly’s Copenhagen office as a Growth Consultant. He stands firmly at the intersection between product, sales, and marketing by leveraging experimentation, automation, and customer feedback to pinpoint use cases and customer segments. Before Signifly, Thor earned his stripes navigating the startup world as a Product Marketing Manager and Commercial Lead – and his passion for tech startups continues to be a source of inspiration.",
+    "id": 20
+},
+{
+    "img": "https://www.datocms-assets.com/7718/1545302645-mv-main.jpg?auto=compress&w=389&dpr=1&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1553180656-ntk9290-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Michael Valentin",
+  "email": "mv@signifly.com",
+  "phone": "+45 2819 2966",
+  "stilling": "CEO Partner & Digital Strategist",
+  "beskrivelse": "Michael is a digital strategist with a heavy technical profile. For the past 10 years, he has worked with digital strategy, design, and development of everything from digital products, websites, e-commerce, and self-service solutions. He has a deep expertise in specification and architecture for larger digital systems, utilizing his deep insight into both business strategy, organization, and digital design to devise and execute solutions that deliver results, achieve support, and gain traction from both internal and external stakeholders.",
+    "id": 21
+},
+
+{
+    "img": "https://www.datocms-assets.com/7718/1638281740-signiflyportraits-11-edit.jpg?auto=compress&w=272&dpr=2&q=70",
+     "imgfull": "https://www.datocms-assets.com/7718/1638281740-signiflyportraits-11-edit.jpg?auto=compress&w=1435&dpr=2&q=70",
+  "name": "Anna Chowattanakul ",
+  "email": "ach@signifly.com",
+  "phone": "",
+  "stilling": "Front-end Developer",
+  "beskrivelse": "Anna joined Signifly’s Montréal office in August of 2021 as a front-end developer. She takes pride in consistency, details, and quality – making sure that the websites she develops are beautiful and accessible to all audiences.",
+    "id": 22
 }
+
 ]
