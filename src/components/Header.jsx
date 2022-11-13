@@ -5,6 +5,7 @@ function Header() {
      <header>
         <nav>
           <a href="" ><img className='logo' src="signifly-logo-full-colour-rgb.png" alt="" /></a>
+       <img src="små-projekthold.png" alt="" />
         </nav>
       </header>
   )
