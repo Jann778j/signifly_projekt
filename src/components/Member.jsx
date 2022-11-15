@@ -1,9 +1,9 @@
 import React from 'react'
-import FinishedTeam from './FinishedTeam';
+
 
 
 function Member(props) {
-  
+
 
     // function der tildeler props
     function add(){
