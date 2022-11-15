@@ -3,6 +3,7 @@ import FinishedTeam from './FinishedTeam';
 
 
 function Member(props) {
+  
 
     // function der tildeler props
     function add(){
@@ -17,13 +18,13 @@ function Member(props) {
        <div className='memberflex'>
         <div>
              <h2>{props.data.name}</h2>
-              <h3>{props.data.stilling}</h3>
+              <p className='para'>{props.data.stilling}</p>
 
     {/* hvis fullview er true så hvis de enheder der er wrapped i fullview.props */}
     {/* fullview er sat til false i MemberList og til true i FinishedTeam, derfor skal det aktivere før indholdet ses */}
 
-                  {props.fullView === true && <h4><a href={`mailto:${props.data.email}`}>{props.data.email}</a></h4>} 
-                     {props.fullView === true && <p><a href={`tel:${props.data.phone}`}>{props.data.phone}</a></p>} 
+                  {props.fullView === true && <p>E-mail: <a href={`mailto:${props.data.email}`}>{props.data.email}</a></p>} 
+                     {props.fullView === true && <p> Tlf: <a href={`tel:${props.data.phone}`}>{props.data.phone}</a></p>} 
                    {props.fullView === true && <p>{props.data.beskrivelse}</p>} 
          </div>
 

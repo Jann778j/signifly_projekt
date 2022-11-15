@@ -1,57 +1,153 @@
+@font-face {
+
+  font-family: "National2-Medium";
+
+  src: url(font/national2-medium-webfont.woff2) format("woff2");
+
+}
+@font-face {
+
+  font-family: "National2-regular";
+
+  src: url(font/national2-regular-webfont.woff2) format("woff2");
+
+}
+
+@font-face {
+
+  font-family: "National2-light";
+
+  src: url(font/national2-light-webfont.woff2) format("woff2");
+
+}
+
+@font-face {
+
+  font-family: "BureauGrotCompressed-regular";
+
+  src: url(font/bureau_grot_compressed_black-webfont.woff2) format("woff2");
+
+}
+
+
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  // font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  // font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+  // font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  // font-synthesis: none;
+  // text-rendering: optimizeLegibility;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // -webkit-text-size-adjust: 100%;
 }
 
 
 
+html{
+  scroll-behavior: smooth;
+background-color: rgb(247, 247, 243);
+
+}
+
 body{
   height:fit-content;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
 }
 .logo{
   max-width: 20%;
   padding: 1rem;
 }
 
+
+label, .message{
+   color: #242424;
+   text-align: center;
+   font-family: National2-Regular, sans-serif;
+
+ }
+
+ a{
+ color: #925fbe;
+ }
+
+    p {
+      color: #242424;
+      text-align: center;
+      font-family: National2-light, sans-serif;
+  
+    }
+          h3 {
+           color: #242424;
+           text-align: center;
+           font-family: National2-Regular, sans-serif;
+          
+         }
+         h2{
+          font-family: National2-Medium, sans-serif;
+          font-weight: 400;
+          font-size: 21px;
+        
+         }
+
 img{
   max-width: 100%;
+  max-height: 700px;
 }
 
-.App{
+// .App{
  
-}
+// }
 
 Header{
-  background-color: rgb(191, 198, 219);
+  background-color: rgb(255, 255, 255);
   grid-column: 1/-1;
+
+  section{
+   margin-left: 6rem;
+   margin-bottom: 4rem;
+    color: #242424;
+    h2{
+    font-family: BureauGrotCompressed-regular, sans-serif;
+    letter-spacing: 10px;
+    font-size: 1.5rem;
+    color: rgb(119, 141, 129);
+    }
+    img{
+      max-width: 20%;
+    }
+  
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+      max-width: 10%;
+    }
+  }
 
 }
 
 .Valgtteam{
-  background-color: beige;
+  background-color: rgb(255, 255, 255);
   color: #242424;
   display: flex;
   flex-direction: column;
 
-    position: sticky;
+   position: sticky;
       bottom: 0px;
   
 
   li {
       list-style: none;
+        font-family: National2-regular, sans-serif;
      
     }
 
@@ -59,6 +155,7 @@ Header{
   button {
   align-self: center;
   margin-bottom: 2rem;
+  font-family: National2-Medium, sans-serif;
 
     
   }
@@ -67,20 +164,32 @@ Header{
 
 button{
     border-radius: 0px;
-    background-color: #242424;
+    background-color: #4e4e4e;
     border: 0;
     width: 150px;
     height: 45px;
     color: antiquewhite;
     cursor: pointer;
+    font-family: National2-Medium, sans-serif;
+}
+
+button:hover{
+  transition: 1s;
+  background-color: #4f00cf;
+}
+
+a:hover{
+  color: #4f00cf;
 }
 
 .x{
-  border-radius: 0px;
+  border-radius: 20px;
     background-color: #242424;
     border: 0;
-    width: 17px;
-    height: 17px;
+    width: 19px;
+    height: 19px;
+  
+    
  margin: 1rem;
 
 }
@@ -90,25 +199,36 @@ button{
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
-  gap: 1rem;
-  padding: 1rem;
+  gap: 3rem;
+  padding-bottom: 4rem;
+  // padding: 1rem;
  
 
 }
 
 .Member{
  
-  background-color: rgb(185, 206, 185);
+  // background-color: rgb(218, 232, 218);
   text-align: center;
    padding-bottom: 1rem;
+  box-shadow: 4px 6px 15px #ded5cd;
+  background-color: rgb(218, 228, 220);
+   color: #242424;
+
+
+   h3{
+    color: #242424;
+    font-size: 1rem;
+        font-family: National2-light, sans-serif;
+   }
  
 
   .memberflex{
     padding:1rem ;
     display: flex;
    flex-direction: column;
-
-  height: 13.5rem;
+// margin: 2rem;
+  height: 12rem;
   justify-content: space-between;
 
   button{
@@ -122,7 +242,7 @@ button{
 
 .FinishedTeam{
   color: #242424;
-  padding: 1rem;
+  // padding: 1rem;
   background-color: white;
     display: grid;
     justify-content: center;
@@ -131,22 +251,33 @@ button{
     //   display: flex;
     //   max-width:80%;
     // }
+         padding-bottom: 4rem;
     gap: 1rem;
-    padding: 1rem;
-
+    // padding: 1rem;
+   
 
         .Member {
     
-          background-color: rgb(185, 206, 185);
+          // background-color: rgb(218, 232, 218);
           text-align: center;
           padding-bottom: 1rem;
+
+          h2{
+            font-size: 2rem;
+          }
+
+          .para{
+                font-family: National2-bold, sans-serif;
+                font-size: 1.3rem;
+          }
     
+         
     
           .memberflex {
             padding: 1rem;
             display: flex;
             flex-direction: column;
-    
+
            height: fit-content;
             justify-content: space-between;
     
@@ -166,9 +297,9 @@ button{
 
 .SendTeam{
   color: #242424;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
 
-  
+
   button{
     margin: 1rem;
   }
@@ -190,16 +321,31 @@ margin: 1rem;
     }
 }
 
+.Valgtteam{
+  background-color: rgb(255, 255, 255);
+
+}
+
+
+
 
 
 @media (min-width: 1000px) {
 
 
+
+Header {
+   
+    grid-column: 1/-1;
+
+  }
+
+
   .FinishedTeam {
       color: #242424;
-      padding: 1rem;
+      // padding: 1rem;
       background-color: white;
-      // display: grid;
+    
       display: grid;
       grid-template-columns: 1fr;
       justify-content: center;
@@ -207,24 +353,75 @@ margin: 1rem;
       .Member{
         display: flex;
         padding-bottom: 0rem;
+             margin-left: 2rem;
+                 margin-right: 2rem;
+
+                 .memberflex{
+                  margin: 2rem;
+                 }
+        p{
+        margin-left: 2rem;
+        margin-right: 2rem ;
+        text-align: center;
+        width:auto;
+        }
   
         img{
           max-width: 400px;
          
         }
+
+        
       
       }
-      gap: 1rem;
-      padding: 1rem;
+      gap: 2.5rem;
+      // padding: 1rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
   
   
   
     }
 
+    
+
+        .Valgtteam {
+        
+          position:static;
+          top:30px;
+
+          
+    
+        }
+
         .App {
           display: grid;
           grid-template-columns: auto 300px;
         }
+
+        .SendTeam{
+          margin-left: 2rem;
+          margin-right: 2rem;
+        }
+
+
+}
+
+@media (min-width: 1500px) {
+
+  .FinishedTeam {
+
+    margin-left: 8rem;
+    margin-right: 8rem;
+
+
+  }
+
+  .FinishedTeam .Member p {
+    // margin-left: 6rem;
+    // margin-right: 6rem;
+  }
+
 
 
 }

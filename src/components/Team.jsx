@@ -7,11 +7,11 @@ function Team(props) {
     {/* modtager en member af gangen  */}
     {/* modtager remove from team function som gør det muligt at fjeren member fra team */}
     <ul>
-        {props.team.map(item=> <li key={item.id}><button className='x' onClick={()=>props.removeFromTeam(item.id)}>x</button> {item.name} </li>)}
+        {props.team.map(item=> <li key={item.id}><button className='x' onClick={()=>props.removeFromTeam(item.id)}>&#x2715;</button> {item.name} </li>)}
        
        
     </ul>
-    <button onClick={()=>props.setShowTeam(true)}>SHOW TEAM</button>
+    <button onClick={()=>props.setShowTeam(true)}>MAKE TEAM</button>
     
   </section>
   )
