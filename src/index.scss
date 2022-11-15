@@ -57,11 +57,11 @@ background-color: rgb(252, 252, 247);
 
 body{
   height:fit-content;
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
 }
 
 .App{
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
 }
 .logo{
   max-width: 20%;
@@ -109,7 +109,7 @@ img{
 // }
 
 Header{
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
   grid-column: 1/-1;
 
   section{
@@ -140,7 +140,7 @@ Header{
 }
 
 .Valgtteam{
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
   color: #242424;
   display: flex;
   flex-direction: column;
@@ -172,7 +172,7 @@ button{
     border: 0;
     width: 150px;
     height: 45px;
-    color: rgb(247, 247, 243);
+    color: rgb(252, 252, 247);
     cursor: pointer;
     font-family: National2-Medium, sans-serif;
 }
@@ -199,7 +199,7 @@ a:hover{
 }
 
 .Members{
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
@@ -247,7 +247,7 @@ a:hover{
 .FinishedTeam{
   color: #242424;
   // padding: 1rem;
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
@@ -301,7 +301,7 @@ a:hover{
 
 .SendTeam{
   color: #242424;
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
 
 
   button{
@@ -326,7 +326,7 @@ margin: 1rem;
 }
 
 .Valgtteam{
-  background-color: rgb(247, 247, 243);
+  background-color: rgb(252, 252, 247);
 
 }
 
@@ -348,7 +348,7 @@ Header {
   .FinishedTeam {
       color: #242424;
       // padding: 1rem;
-      background-color: rgb(247, 247, 243);
+      background-color: rgb(252, 252, 247);
     
       display: grid;
       grid-template-columns: 1fr;
